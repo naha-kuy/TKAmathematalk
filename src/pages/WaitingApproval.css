@@ -1,0 +1,36 @@
+.waiting-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary-lightest) 0%, var(--bg) 50%, var(--primary-lighter) 100%);
+  padding: 2rem;
+}
+
+.waiting-card {
+  background: var(--surface);
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(33, 112, 147, 0.15);
+  padding: 2.5rem;
+  max-width: 460px;
+  width: 100%;
+  text-align: center;
+}
+
+.waiting-icon {
+  font-size: 3.5rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.waiting-card h2 {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 0.75rem;
+}
+
+.waiting-card p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}

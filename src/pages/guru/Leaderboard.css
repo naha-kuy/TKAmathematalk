@@ -1,0 +1,10 @@
+.lb-page {
+  max-width: 800px;
+}
+
+.lb-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}

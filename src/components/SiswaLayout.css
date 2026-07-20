@@ -1,0 +1,17 @@
+.siswa-sidebar {
+  background: linear-gradient(180deg, var(--sidebar-gradient-start) 0%, var(--sidebar-gradient-end) 100%);
+  color: var(--sidebar-text);
+}
+
+.siswa-sidebar .nav-item.active {
+  background: rgba(78, 184, 221, 0.2);
+  color: var(--sidebar-active);
+}
+
+.siswa-sidebar .brand-text small {
+  color: var(--primary-lighter);
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 0.8rem;
+}

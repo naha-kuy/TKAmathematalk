@@ -1,0 +1,75 @@
+.siswa-dashboard {
+  max-width: 960px;
+}
+
+.dashboard-header {
+  margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+  font-size: 1.6rem;
+  color: var(--primary);
+  margin-bottom: 0.35rem;
+}
+
+.dashboard-header p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.soal-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.soal-card {
+  background: var(--surface);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  gap: 1rem;
+}
+
+.soal-card-body h3 {
+  font-size: 1.05rem;
+  color: var(--text);
+  margin-bottom: 0.3rem;
+}
+
+.soal-card-body p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.soal-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+.soal-card-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .soal-card {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .soal-card-actions {
+    justify-content: stretch;
+  }
+  .soal-card-actions a,
+  .soal-card-actions button {
+    flex: 1;
+    text-align: center;
+  }
+}

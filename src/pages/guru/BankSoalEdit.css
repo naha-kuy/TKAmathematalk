@@ -1,0 +1,79 @@
+.bank-soal-edit {
+  max-width: 960px;
+}
+
+.edit-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.edit-info {
+  align-self: start;
+}
+
+.edit-questions h3 {
+  font-size: 1rem;
+  color: var(--primary);
+  margin-bottom: 0.75rem;
+}
+
+.question-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.q-no {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--primary);
+  min-width: 60px;
+}
+
+.q-options {
+  display: flex;
+  gap: 0.35rem;
+}
+
+.q-option {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.3rem 0.75rem;
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+.q-option:hover {
+  border-color: var(--primary-lighter);
+}
+
+.q-option.selected {
+  border-color: var(--primary-light);
+  background: var(--primary-lightest);
+  color: var(--primary);
+}
+
+.q-option input {
+  display: none;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .edit-grid {
+    grid-template-columns: 1fr;
+  }
+}

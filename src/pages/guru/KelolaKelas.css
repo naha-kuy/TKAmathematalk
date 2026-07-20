@@ -1,0 +1,13 @@
+.kelola-kelas {
+  max-width: 700px;
+}
+
+.add-kelas-form {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.add-kelas-form input {
+  flex: 1;
+}

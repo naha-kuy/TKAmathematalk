@@ -1,0 +1,7 @@
+.bank-soal-list {
+  max-width: 960px;
+}
+
+.dashboard-header .btn {
+  flex-shrink: 0;
+}
